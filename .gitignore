@@ -38,6 +38,7 @@ public/dist/
 dist/
 tmp/
 .idea/
+/nginx
 # OSX
 .DS_Store
 
