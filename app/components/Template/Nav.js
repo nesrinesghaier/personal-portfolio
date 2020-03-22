@@ -10,7 +10,7 @@ const Nav = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${BASE_PATH}/images/NESRINE.jpg`} alt="" />
+        <img src={`${BASE_PATH}/images/NESRINE.jpg`} alt=""/>
       </Link>
       <header>
         <h2>Nesrine Sghaier</h2>
@@ -20,8 +20,9 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>Summary</h2>
-      <p>Hi, I&apos;m Nesrine Sghaier. I am an ENISo (National Engineering School of Sousse) Alumni
-        and a Full Stack Engineer currently. Most of the time, I am driven by curiosity and
+      <p>Hi, I&apos;m Nesrine Sghaier. I am an <a href="http://eniso.info/" rel="noopener noreferrer" target="_blank">ENISo (National Engineering School of Sousse)</a> Alumni
+        and a Full Stack Engineer currently. I am always passioned about coding that may help
+        people in any aspect of their lives. Most of the time, I am driven by curiosity and
         competitiveness.
       </p>
       <ul className="actions">
@@ -37,7 +38,7 @@ const Nav = () => (
       <ul className="icons">
         {data.map((s) => (
           <li key={s.label}>
-            <a href={s.link}>
+            <a href={s.link} rel="noopener noreferrer" target="_blank">
               <FontAwesomeIcon icon={s.icon} />
             </a>
           </li>
