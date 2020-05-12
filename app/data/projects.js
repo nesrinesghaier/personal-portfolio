@@ -1,6 +1,14 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Isometric submissions',
+    subtitle: 'Chrome extension',
+    link: 'https://github.com/nesrinesghaier/isometric-submissions',
+    image: '/images/projects/is.png',
+    date: '2020-04-20',
+    desc: 'Isometric submissions allows you to switch between your LeetCode submissions chart and an isometric pixel art version.',
+  },
+  {
     title: 'Robotic Process Automation Software',
     subtitle: 'Nixz',
     link: 'http://nixz.io/',
